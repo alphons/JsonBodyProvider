@@ -1,0 +1,9 @@
+@JsonBodyProviderTest_HostAddress = http://localhost:5129
+
+POST {{JsonBodyProviderTest_HostAddress}}/First/Test
+Content-Type: application/json
+
+{
+  "name": "Alphons",
+  "age": 21
+}

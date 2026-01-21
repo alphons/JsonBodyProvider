@@ -4,6 +4,6 @@ POST {{JsonBodyProviderTest_HostAddress}}/First/Test
 Content-Type: application/json
 
 {
-  "name": "Alphons",
+  "Name": "Alphons",
   "age": 21
 }

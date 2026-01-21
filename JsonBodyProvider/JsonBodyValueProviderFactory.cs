@@ -39,7 +39,6 @@ internal class JsonBodyValueProviderFactory : IValueProviderFactory
 			values.TryAdd(cookie.Key, JsonValue.Create(cookie.Value));
 
 		context.ValueProviders.Add(new JsonBodyValueProvider(values));
-
 	}
 
 	private static bool IsJsonContentType(HttpRequest request) =>

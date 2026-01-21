@@ -6,18 +6,7 @@ namespace JsonBodyProviderTest.Controllers;
 public class FirstController : ControllerBase
 {
 	[HttpPost("Test")]
-	public IActionResult Test(string Name, int age)
-	{
-		return Ok(new
-		{
-			Name = $"Your name {Name}",
-			Age = $"Your age {age}"
-		});
-	}
-
-
-	[HttpPost("Multi")]
-	public IActionResult MultiTest(
+	public IActionResult Test(
 		string EventName,
 		string UserId,
 		DateTime Timestamp,

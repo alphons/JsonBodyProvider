@@ -4,6 +4,16 @@ POST {{JsonBodyProviderTest_HostAddress}}/First/Test
 Content-Type: application/json
 
 {
-  "Name": "Alphons",
-  "age": 21
+  "EventName": "Alphons",
+  "UserId": "alphons",
+  "Timestamp" : "2025-06-18T14:22:09Z",
+  "Value": 1,
+  "Weight": 123.4567,
+  "IntList": [ 1, 2, 3],
+  "Properties": {
+    "category": "electronics",
+    "source": "newsletter"
+  },
+  "isConversion": true,
+  "campaignId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
 }

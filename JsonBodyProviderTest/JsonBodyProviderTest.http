@@ -8,12 +8,21 @@ Content-Type: application/json
   "UserId": "alphons",
   "Timestamp" : "2025-06-18T14:22:09Z",
   "Value": 1,
+  "Bite": 255,
   "Weight": 123.4567,
+  "Price": 98.76,
+  "Height" : 3.2,
   "IntList": [ 1, 2, 3],
   "Properties": {
     "category": "electronics",
     "source": "newsletter"
   },
   "isConversion": true,
-  "campaignId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  "campaignId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "FirstChar": "Z",
+  "Ernie" : 100000000,
+  "Man": 32000,
+  "Dater" : "2026-07-13",
+  "Timer" : "12:34:56"
+
 }

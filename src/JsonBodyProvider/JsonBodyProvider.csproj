@@ -1,13 +1,34 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
 	<PropertyGroup>
 		<TargetFramework>net10.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageProjectUrl>https://github.com/alphons/JsonBodyProvider</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/alphons/JsonBodyProvider.git</RepositoryUrl>
+		<Description>Allows you to bind multiple simple parameters directly from a JSON request body - without using [FromBody] and without wrapper DTO classes</Description>
+		<PackageDescription>JsonBodyProvider for multi parameters model binding out of the box on AspNetCore</PackageDescription>
+		<Authors>alphons</Authors>
+		<PackageId>JsonBodyProvider</PackageId>
+		<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+		<PackageTags>Microsoft;AspNetCore;Mvc;AspNetCoreMvc;json</PackageTags>
+		<PackageIcon>icon.png</PackageIcon>
+		<Version>10.0.1</Version>
+		<AssemblyVersion>10.0.1.0</AssemblyVersion>
+		<FileVersion>10.0.1.0</FileVersion>
 	</PropertyGroup>
-
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>	
+	<ItemGroup>
+		<None Include="..\..\icon.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
-
 </Project>
